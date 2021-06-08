@@ -2,6 +2,9 @@
 // What's the time complexity? - O(n), n = digitsSize by worst case
 // What's the space complexity? - O(1), no extra space allocated
 
+// I also tried to solve this problem by using string, stoi/stol/stoll, and to_string
+// but it will give Run Time Error since the input digits will exceed stoll capacity.
+
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) 
