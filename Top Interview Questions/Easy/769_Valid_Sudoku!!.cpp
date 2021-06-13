@@ -2,6 +2,15 @@
 // Time complexity: O(n^2), n = size of board row or col
 // Space complexity: O(3n^2) = O(n^2), n = size of board row or col
 
+// Question: Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
+// 1. Each row must contain the digits 1-9 without repetition.
+// 2. Each column must contain the digits 1-9 without repetition.
+// 3. Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+
+// Approach: Use the rules to check for validity of the sudoku but I was stuck at checking for rule #3.
+// This problem was not easy for me, I needed to check for clues on the Discussion.
+// My understanding for the use of i/3 and i%3 is still a blur, will need to come back to this problem.
+
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board)
