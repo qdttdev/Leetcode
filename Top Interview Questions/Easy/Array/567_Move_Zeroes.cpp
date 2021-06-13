@@ -2,6 +2,11 @@
 // What's the time complexity? - O(n), n = size of nums
 // What's the space complexity? - O(1), no extra memory allocated
 
+// Question: Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+// Approach: Traverse through the array and delete any 0 found and keep track zeroes count.
+// Push the deleted zeroes to the back of the array.
+
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) 
