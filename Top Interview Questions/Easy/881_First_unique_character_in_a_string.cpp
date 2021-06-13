@@ -2,6 +2,12 @@
 // Space complexity: O(n), n = length of string
 // Time complexity: O(n), n = length of string
 
+// Question: Given a string s, return the first non-repeating character in it and return its index. If it does not exist, return -1.
+
+// Approach: I traverse through the strings and populate a map with key = character in the string, and val = the count of the character.
+// Then, I traverse through the string again and search for count of each character by using the map.
+// We can do this by using s[i] (the character) as index of the map, and i as index of the loop.
+
 class Solution {
 public:
     int firstUniqChar(string s) 
