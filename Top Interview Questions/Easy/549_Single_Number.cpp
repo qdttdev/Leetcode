@@ -1,4 +1,12 @@
 // https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/
+// Time complexity: O(n) + O(n) = O(n), n = size of nums
+// Space complexity: O(n), n = size of nums for the map
+
+// Description: Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+// You must implement a solution with a linear runtime complexity and use only constant extra space.
+
+// Approach: Use map to count for occurences of the number in the array, then output the one with 1 occurence.
+
 class Solution {
 public:
     int singleNumber(vector<int>& nums) 
