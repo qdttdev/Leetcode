@@ -3,6 +3,7 @@
 // Space complexity: O(1), no extra space allocated
 
 // Question: Write a function that reverses a string. The input string is given as an array of characters s.
+
 // Approach: Traverse through half of the string, swap first and last elements, then increment first, decrement last.
 // Use i for first index, j for last index.
 
