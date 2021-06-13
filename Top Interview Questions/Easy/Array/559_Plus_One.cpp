@@ -2,8 +2,16 @@
 // What's the time complexity? - O(n), n = digitsSize by worst case
 // What's the space complexity? - O(1), no extra space allocated
 
-// I also tried to solve this problem by using string, stoi/stol/stoll, and to_string
+// Notice: I also tried to solve this problem by using string, stoi/stol/stoll, and to_string
 // but it will give Run Time Error since the input digits will exceed stoll capacity.
+
+// Question: Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer.
+// The digits are stored such that the most significant digit is at the head of the list, and each element in the array contains a single digit.
+// You may assume the integer does not contain any leading zero, except the number 0 itself.
+
+// Approach: Solve this problem by thinking about doing addition on paper, add 1 by column from right to left.
+// If it becomes 10, you have to add one again to the left column. If not, return the number.
+// When result's digits exceed the original, change first index value to 1, and push 0 to the end to ensure correct value after the increment.
 
 class Solution {
 public:
