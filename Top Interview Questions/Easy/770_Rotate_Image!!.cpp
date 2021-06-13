@@ -2,6 +2,12 @@
 // Time complexity: O(n^2), n = number of columns or rows of matrix
 // Space complexity: O(n^2), n = number of columns or rows of matrix
 
+// Question: You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
+// You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
+
+// Approach: I populate another matrix by reading the original from bottom to top, left to right.
+// There is another way to do the problem by swapping the elements, I will come back to this!!
+
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) 
