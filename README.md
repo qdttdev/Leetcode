@@ -14,6 +14,11 @@ My self-study Leetcode problems.
 #include <bits/stdc++.h>
 using namespace std;
 ```
+## Common Big-O times
+```
+Best -------------------------------------------------> Worst
+O(logn) --> O(n) --> O(nlogn) --> O(n^2) --> O(2^n) --> O(n!)
+```
 
 ## Big-O Growth Order
 ![image](https://user-images.githubusercontent.com/56989578/121824364-97c30800-cc60-11eb-95f0-64a58051cfdb.png)
