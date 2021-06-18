@@ -1,6 +1,6 @@
 // https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/886/
 
-// Question: Implement countAndSay, 
+// Question: Implement countAndSay 
 //  1.     1                    one 1                   11
 //  2.     11                   two 1                   21
 //  3.     21                   one 2, one 1            1211
@@ -12,6 +12,22 @@
 //  9.     31131211131221
 // 10.     13211311123113112211
 
+// Recursion visualization for better understanding: n = 3
+// string countAndSay(3)                        Line 1
+// 	recur(countAndSay(2))                       Line 2
+// 		recur(countAndSay(1))                   Line 3
+// 			return 1                            Line 4			
+		
+// countAndSay(1) = "1" from line 4, now proceed line 3 		
+//      recur(countAndSay(1)) = recur(1)
+// 				 (count and say)
+//      result = "" + '1' + '1' = 11
+
+// countAndSay(2) = "11" from line 3, now proceed line 2
+//      recur(countAndSay(2)) = recur(11)
+//      result = "" + '2' + '1' = 21
+
+// countAndSay(3) = "21" from line 2.	
 
 class Solution {
 public:
