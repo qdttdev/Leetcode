@@ -7,7 +7,7 @@
 //            2. I can traverse through half of the string, use i = firstIndex, j = endIndex, then compare them, if at any point they're not equal, then it is not Palindrome.
 
 // Approach #2
-// TC: O(n/2), n = length/2 of x
+// TC: O(n), n = length/2 of x
 // SC: O(1)
 
 class Solution {
