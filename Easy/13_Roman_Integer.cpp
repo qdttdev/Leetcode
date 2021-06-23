@@ -1,3 +1,13 @@
+// https://leetcode.com/problems/roman-to-integer/
+// TC: O(n), n = length of string
+// SC: O(1), no extra space allocated
+
+// Question: Convert Roman numerals into integer.
+
+// Approach: Use switch statements to store value of each Roman symbols.
+// Then use if statements for the six cases for subtraction.
+// Subtract twice because we added it from previous iteration.
+
 class Solution {
 public:
     int singleRomToInt(char c)
@@ -42,19 +52,12 @@ public:
             || s[i-1] == 'C' && (s[i] == 'D' || s[i] == 'M')   
               ) 
             {
-                iVal += singleRomToInt(s[i]) - singleRomToInt(s[i-1]);
+                iVal += singleRomToInt(s[i]) - 2*singleRomToInt(s[i-1]);
             }
             else
             {
                 iVal += singleRomToInt(s[i]);
             }      
-            
-            cout << iVal << endl << endl;
-        }
-        
-        if(iVal < 0)
-        {
-            iVal = iVal*-1;
         }
         
         return iVal;
