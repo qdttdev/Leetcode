@@ -1,7 +1,9 @@
 # ![image](https://user-images.githubusercontent.com/56989578/121824527-acec6680-cc61-11eb-8580-2406ba8300d6.png)
 My self-study Leetcode problems.
 
-📌 Now working on: [Top Interview Question - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+📌 Now working on:
+* [Top Interview Question - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+* [June Leetcoding Challenge](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge-2021/)
 
 ## Questions to Ask for Every Problem:
 ```
