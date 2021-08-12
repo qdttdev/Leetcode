@@ -3,7 +3,7 @@ My self-study Leetcode problems.
 
 📌 Now working on:
 * [Top Interview Question - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
-* [June Leetcoding Challenge](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge-2021/)
+* [August Leetcoding Challenge](https://leetcode.com/explore/featured/card/august-leetcoding-challenge-2021/)
 
 ## Questions to Ask for Every Problem:
 ```
