@@ -20,8 +20,8 @@
  */
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) 
-    {
+    ListNode* removeNthFromEnd(ListNode* head, int n)   // TC: O(n), n = list size
+    {                                                   // SC: O(1), no extra memory allocated
         ListNode* curr = nullptr;
         int size = 0;
         int skip = 0;
